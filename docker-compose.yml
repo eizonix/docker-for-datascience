@@ -8,6 +8,7 @@ services:
       - ./:/home/jovyan/
     ports:
       - "8888:8888"
+    container_name: jupyter01
   db:
     image: postgres
     restart: always
